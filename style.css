@@ -19,6 +19,7 @@ font-weight: 300 !important;
     background:white ;
 
     color: #000;
+    margin-top: 100px;
    
 
 
@@ -51,7 +52,7 @@ margin: 20px 30px;
    
 }
 
-main{v  
+main{ 
   
 }
 
@@ -59,11 +60,30 @@ main{v
     width: 95%;
     margin: auto;
     margin-top: 20px ;
+ 
 }
+
+
+#main-header::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 50px;
+    bottom: 0px;
+    background-color: black;
+    position: absolute;
+    margin-top: 20px;
+   
+}
+
 
 #main-header {
 
     border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    background: rgb(255, 255,255,.9);
+    top: 0px;
 }
 
 article{
