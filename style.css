@@ -16,10 +16,10 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 font-weight: 300 !important;
 
-    background: white ;
+    background:white ;
 
     color: #000;
-    text-shadow: -6px 5px 5px #000;
+   
 
 
 }
@@ -73,7 +73,7 @@ border: 1px solid black;
 padding: 10px;
 margin: 10px;
 background-color: ;
-box-shadow: 5px 5px 20px -1px rgba(0, 0,0, .3);
+
 
 
 }
@@ -87,6 +87,7 @@ article:hover
     width: 100%;
     background-size:cover !important ;
     background-position: center !important;
+ 
 }
 
 .more-link{
@@ -106,12 +107,40 @@ article:hover
 
 a{
 
-    text-decoration: underline line-through overline ;
-    text-decoration-style:dashed ;
+    text-decoration: underline ;
+    text-decoration-style: solid ;
    
 }
 
 p {
 text-align: right;
 }
+
+a:hover, a.more-link.bolded-link:hover {
+    color: rgb(200, 255, 71);
+
+}
+
+.my-input {
+
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 15px 22px 2px 50px;
+    border: 1px solid #000;
+
+}
+
+.my-input:focus{
+background: rgb(190, 255, 105) ;
+color: darkgreen;
+outline: none;
+border: 1px solid transparent;
+}
+
+article:active{
+    opacity: .4;
+}
+art
 
