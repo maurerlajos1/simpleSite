@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+font-weight: 300 !important;
+
+    background: white ;
+
+    color: #000;
+    text-shadow: -6px 5px 5px #000;
+
+
+}
+
+#site-title
+{
+    font-family: 'Press Start 2P', sans-serif;
+    letter-spacing: 3px;
+ 
+}
+
+h3 {
+    color: #000;
+}
+
+body h3 {
+    color: #f00;
+    margin: 10px;
+   margin-top: 20px;
+   
+  
+}
+
+body h1 {
+    font-weight: 300;
+margin: 20px 30px;
+
+
+   
+}
+
+main{v  
+  
+}
+
+#top-stories{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px ;
+}
+
+#main-header {
+
+    border-bottom: 1px solid black;
+}
+
+article{
+    max-width: 480px ;
+    display: inline-block;
+border: 1px solid black;
+padding: 10px;
+margin: 10px;
+background-color: ;
+box-shadow: 5px 5px 20px -1px rgba(0, 0,0, .3);
+
+
+}
+article:hover
+{
+    background-color: #e5f76f;
+}
+
+.article-image{
+    height: 400px;
+    width: 100%;
+    background-size:cover !important ;
+    background-position: center !important;
+}
+
+.more-link{
+
+    font-style: italic;
+}
+
+.bolded-link{
+
+    font-weight: 900;
+
+}
+
+.more-link.bolded-link{
+    color: red;
+}
+
+a{
+
+    text-decoration: underline line-through overline ;
+    text-decoration-style:dashed ;
+   
+}
+
+p {
+text-align: right;
+}
+
